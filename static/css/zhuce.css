@@ -1,0 +1,143 @@
+html,body{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.header{
+    width:4.08rem;
+    height:4.08rem;
+    margin:1.2rem auto 0;
+    position:relative;
+}
+.header .son1, .header .son2, .header .son3, .header .son4{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    border-radius: 50%;
+}
+.header .son1{
+    /*width:4.08rem;*/
+    /*height:4.08rem;*/
+    width:2.2rem;
+    height:2.2rem;
+    background-color:rgba(45,184,111,0.8);
+    animation: scale 1.5s infinite 0s;
+}
+.header .son2{
+    /*width:3.16rem;*/
+    /*height:3.16rem;*/
+    width:2.2rem;
+    height:2.2rem;
+    background-color:rgba(45,184,111,0.3);
+    animation: scale 1.5s infinite 0.2s;
+}
+.header .son3{
+    width:2.2rem;
+    height:2.2rem;
+    background-color:rgba(45,184,111,0.3);
+    animation: scale 1.5s infinite 0.4s;
+}
+.header .son4{
+    width:1.64rem;
+    height:1.64rem;
+    background-image:url("../img/header.png");
+    background-size:1.64rem 1.58rem;
+    border-radius: 0;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+@keyframes scale {
+    from{
+        transform:scale(0.5);
+    }
+    to{
+        transform:scale(2);
+        opacity: 0.2;
+    }
+}
+.text1{
+    margin-top:0.3rem;
+    text-align:center;
+    font-size:0.32rem;
+    color:#2DB86F;
+    font-weight: bold;
+}
+.text2{
+    margin-top:0.1rem;
+    text-align:center;
+    font-size:0.24rem;
+    color:#AFAFAF;
+    font-weight: bold;
+}
+.inputBox{
+    width:5.44rem;
+    height:0.6rem;
+    margin:1.7rem auto 0;
+    border-bottom: 2px solid #E8E8E8;
+
+}
+.inputBox .dian{
+    width:0.2rem;
+    height:0.12rem;
+    background-color:#FFCB2E;
+    border-radius: 0.12rem;
+    float:left;
+    margin-top:0.2rem;
+}
+.inputBox input{
+    width:4rem;
+    height:0.5rem;
+    display: block;
+    float:left;
+    border:0;
+    outline:0;
+    text-indent:1em;
+    color:#AFAFAF;
+}
+.inputBox .del{
+    width:0.3rem;
+    height:0.6rem;
+    float:right;
+    font-size:0.4rem;
+    line-height:0.6rem;
+    color:#AFAFAF;
+    display: none;
+}
+
+.btn{
+    width:3.7rem;
+    height:0.72rem;
+    background-color:#E8E8E8;
+    margin:2.6rem auto;
+    border-radius: 0.72rem;
+    text-align:center;
+    line-height:0.72rem;
+    font-size:0.24rem;
+    color:#B8B8B8;
+}
+
+.btn_ok{
+    background-image:linear-gradient(to right,#3E9EFF,#41C2FF);
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

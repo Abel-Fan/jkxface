@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" rem="750">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册人脸</title>
+    <link rel="stylesheet" href="../static/css/u-reset.min.css">
+    <link rel="stylesheet" href="../static/css/face1.css">
+</head>
+<body>
+    <div class="video">
+        <video src="" width="192" height="250" autoplay></video>
+    </div>
+    <div class="title title1" style="display: none;">
+        <div class="top">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>识别中别着急</p>
+    </div>
+    <div class="title title2">
+        <div class="top"></div>
+        <p>正脸对准屏幕</p>
+    </div>
+
+    <div class="tip" style="display:none">
+        <div class="box">
+            <img src="../static/img/duigou.png" alt="">
+            <div class="tip_text">头像已拍摄完成</div>
+            <div class="btn_box">
+                <div class="ok">下一步</div>
+            </div>
+        </div>
+    </div>
+    <canvas width="192" height="250"></canvas>
+</body>
+<script src="../static/js/jquery-3.4.1.js"></script>
+<script src="../static/js/face2.js"></script>
+</html>

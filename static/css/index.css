@@ -1,0 +1,141 @@
+body,html{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+body{
+    background-color:#FBFBFB;
+}
+.jiqiren{
+    width:3.12rem;
+    height:3.12rem;
+    display: block;
+    margin:1.2rem auto 0.3rem;
+}
+.text{
+    font-size:0.32rem;
+    color:#727272;
+    font-weight:bold;
+    text-align:center;
+}
+.register{
+    width:4.70rem;
+    height:0.72rem;
+    margin:4.3rem auto 0;
+    border-radius:0.72rem;
+    background-image:linear-gradient(to right,#3E9EFF,#41C2FF);
+    color:#fff;
+    font-size:0.24rem;
+    text-align:center;
+    line-height:0.72rem;
+    box-shadow: 0 0.1rem 0.2rem 0 #41C2FF;
+}
+.start{
+    width:4.70rem;
+    height:0.72rem;
+    margin:0.46rem auto 0;
+    border-radius:0.72rem;
+    background-image:linear-gradient(to right,#33D07C,#3DE43D);
+    color:#fff;
+    font-size:0.24rem;
+    text-align:center;
+    line-height:0.72rem;
+    box-shadow: 0 0.1rem 0.2rem 0 #3DE43D;
+}
+.tip{
+    width:100%;
+    height:100%;
+    background-color:#FBFBFB;
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+}
+.tip .box{
+    width:6.12rem;
+    height:4.51rem;
+    margin:5rem auto 0;
+    background-image:url("../img/tanchaung.png");
+    background-size:6.12rem 4.5rem;
+    overflow: hidden;
+}
+.tip .box img{
+    width:1.05rem;
+    height:0.95rem;
+    display:block;
+    margin: 0.95rem auto 0;
+}
+.tip .tip_text{
+    text-align:center;
+    padding:0.2rem 0;
+    font-size:0.3rem;
+    color:#727272;
+}
+.tip .btn_box{
+    width:3.6rem;
+    height:0.74rem;
+    margin: 0 auto;
+}
+.tip .btn_box div{
+    width:1.72rem;
+    height:0.74rem;
+    border-radius: 0.74rem;
+    font-size:0.24rem;
+    text-align:center;
+    line-height:0.74rem;
+}
+.tip .btn_box .ok{
+    background-image:linear-gradient(to right,#33D07C,#3DE43D);
+    color:#fff;
+    float:left;
+}
+.tip .btn_box .no{
+    background-color:#EAFBF0;
+    float:right;
+    color:#35D470;
+}
+
+.tip2{
+    width:100%;
+    height:100%;
+    background-color:#FBFBFB;
+    position:fixed;
+    top:0;
+    left:0;
+    background-image:url("../img/bg07.png");
+    background-size:100%;
+    display:none;
+}
+.tip2 .text1,.tip2 .text2{
+    color:#B0B0B0;
+    font-size:0.24rem;
+    text-align:center;
+}
+.tip2 .text1{
+    margin-top:6.56rem;
+}
+.tip2 .tip2_btn{
+    width:3.7rem;
+    height:0.7rem;
+    background-image:linear-gradient(to right,#FFAB32,#FFCD37);
+    border-radius:0.7rem;
+    color:#fff;
+    font-size:0.24rem;
+    text-align:center;
+    line-height:0.7rem;
+    margin:3.6rem auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

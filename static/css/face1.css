@@ -1,0 +1,139 @@
+body,html{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.video{
+    width:3.84rem;
+    height:5rem;
+    border:0.06rem solid #D7D7D7;
+    margin:2.52rem auto 0;
+}
+.title{
+    width:100%;
+    height:auto;
+    margin-top:2.74rem;
+}
+.title .top{
+    height:0.18rem;
+    width:1.68rem;
+    margin:0 auto;
+}
+.title .top div{
+    width:0.18rem;
+    height:0.18rem;
+    border-radius: 50%;
+    float:left;
+    background-color:#2DC27A;
+    margin:0 0.03rem;
+    opacity:0.1;
+}
+.title .top div:nth-child(1){
+    animation:opacity 2s infinite linear 0s alternate;
+}
+.title .top div:nth-child(2){
+    animation:opacity 2s infinite linear 0.05s alternate;
+}
+.title .top div:nth-child(3){
+    animation:opacity 2s infinite linear 0.10s alternate;
+}
+.title .top div:nth-child(4){
+    animation:opacity 2s infinite linear 0.15s alternate;
+}
+.title .top div:nth-child(5){
+    animation:opacity 2s infinite linear 0.20s alternate;
+}
+.title .top div:nth-child(6){
+    animation:opacity 2s infinite linear 0.25s alternate;
+}
+.title .top div:nth-child(7){
+    animation:opacity 2s infinite linear 0.3s alternate;
+}
+
+
+
+
+.title p{
+    font-size:0.3rem;
+    color:#9F9F9F;
+    text-align:center;
+    padding-top:0.36rem;
+}
+
+@keyframes opacity {
+    from{}
+    to{
+        opacity:1;
+    }
+}
+
+
+
+
+.tip{
+    width:100%;
+    height:100%;
+    background-color:#FBFBFB;
+    position:fixed;
+    top:0;
+    left:0;
+}
+.tip .box{
+    width:6.12rem;
+    height:4.51rem;
+    margin:5rem auto 0;
+    background-image:url("../img/tanchaung.png");
+    background-size:6.12rem 4.5rem;
+    overflow: hidden;
+}
+.tip .box img{
+    width:1.05rem;
+    height:0.95rem;
+    display:block;
+    margin: 0.95rem auto 0;
+}
+.tip .tip_text{
+    text-align:center;
+    padding:0.2rem 0;
+    font-size:0.3rem;
+    color:#727272;
+}
+.tip .btn_box{
+    width:3.6rem;
+    height:0.74rem;
+    margin: 0 auto;
+}
+.tip .btn_box div{
+    width:100%;
+    height:0.74rem;
+    border-radius: 0.74rem;
+    font-size:0.24rem;
+    text-align:center;
+    line-height:0.74rem;
+}
+.tip .btn_box .ok{
+    background-image:linear-gradient(to right,#33D07C,#3DE43D);
+    color:#fff;
+    float:left;
+}
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
