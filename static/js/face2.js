@@ -19,11 +19,11 @@ video[0].onprogress = function(){
             dataType:"json",
             data:{url:imgData,name:name},
             success:function(data){
-                console.log(data)
                 if(data.error_code){
                     flag1 = true
                 }else{
                     flag1 = false
+                    location.href="/face1"
                 }
             }
         })

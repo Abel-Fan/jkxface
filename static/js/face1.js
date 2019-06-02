@@ -9,10 +9,34 @@ let flag1 = true
 video[0].onprogress = function(){
     if(flag1){
         cobj.drawImage(video[0],0,0)
-        let imgData = canvas[0].toDataURL()
+        let imgData = canvas[0].toDataURL("image/jpeg",0.7)
         imgData = imgData.substr(23)
         let name = localStorage.name
         flag1 = false
+
+        $.ajax({
+            url:"/check",
+            type:"post",
+            dataType:"json",
+            data:{url:imgData,name:name},
+            success:function(data){
+                if(data.error_code){
+                    flag1 = true
+                }else{
+                    flag1 = false
+                    if(data['result'][0]['scores'][0]>90){
+                        let name = data['result'][0]['user_info']
+                        alert(name+"你好")
+                        console.log(data)
+                        //    跳转成功页面  location.href=""
+                    }else{
+                        // 跳转到失败页面
+                        alert("请先注册")
+                    }
+
+                }
+            }
+        })
     }
 }
 

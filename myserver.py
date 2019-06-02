@@ -27,8 +27,15 @@ def face2():
 def addface():
     data = urllib.parse.urlencode(request.form).encode('utf-8')  # url  name 的数据
     con = urllib.request.urlopen("https://118.190.150.35:5000/api/photo",data=data).read()
-
     return con
+
+@app.route("/check",methods=['POST'])  # methods请求方式 get post
+def check():
+    data = urllib.parse.urlencode(request.form).encode('utf-8')  # url  name 的数据
+    con = urllib.request.urlopen("https://118.190.150.35:5000/api/check",data=data).read()
+    return con
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
